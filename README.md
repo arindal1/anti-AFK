@@ -12,7 +12,7 @@ The `python` script [antiafk.py](https://github.com/arindal1/anti-AFK/blob/main/
 
 #### Script: [antiafk.py](https://github.com/arindal1/anti-AFK/blob/main/antiafk.py)
 
-This Python script uses the `pynput` library to listen for mouse and keyboard activities. It opens Notepad and types random characters to keep the system active. It also moves the mouse randomly to prevent idle detection.
+This Python script uses the `pynput` and `keyboard` library to listen for mouse and keyboard activities. It opens Notepad and types random characters to keep the system active. It also moves the mouse randomly to prevent idle detection.
 
 ## Usage
 
@@ -20,6 +20,7 @@ This Python script uses the `pynput` library to listen for mouse and keyboard ac
 2. Install the required dependencies using pip:
    ```
    pip install pynput
+   pip install keyboard
    ```
 3. Run the script using the following command:
    ```
